@@ -1,10 +1,7 @@
 package com.mq.ftp.util;
 
-import com.mq.ftp.dto.ReportFtpDto;
 import com.mq.ftp.entity.ReportFtpInfoModel;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;

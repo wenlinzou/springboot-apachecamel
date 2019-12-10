@@ -14,7 +14,7 @@
         <foreach collection="list" item="item" index="index" separator=",">
             (
             #{item.id,jdbcType=VARCHAR},
-            #{item.name,jdbcType=INTEGER},
+            #{item.name,jdbcType=VARCHAR},
             #{item.content,jdbcType=VARCHAR},
             now())
         </foreach>
