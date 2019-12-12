@@ -39,7 +39,7 @@ ftp:
     name: test
     password: xxx
     dir: /txt_info
-    server-info: ftp://${ftp.txt.url}/${ftp.txt.dir}?username=${ftp.txt.name}&password=${ftp.txt.password}&delay=5s&readLock=rename&filter=#ftpDownloadFileFilter&noop=true&recursive=true
+    server-info: ftp://${ftp.txt.url}/${ftp.txt.dir}?username=${ftp.txt.name}&password=${ftp.txt.password}&delay=5s&readLock=rename&filter=#ftpDownloadFileFilter&noop=true&recursive=true&passiveMode=true
     # 文件存放本地路径
     local-save-dir: D:/ftpdata/txt/save
 

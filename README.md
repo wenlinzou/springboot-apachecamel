@@ -17,6 +17,7 @@ filter: 指定文件过滤器
 noop：读取后对源文件不做任何处理
 recursive：递归扫描子目录，需要在过滤器中允许扫描子目录
 readLock：对正在写入的文件的处理机制
+passiveMode 指定是否使用被动模式连接。默认是false。（true）修复but no files can be found
 ```
 
 ###### 项目介绍
